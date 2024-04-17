@@ -1,0 +1,74 @@
+    <header
+        className={`header-02 sticky
+ fix-header"
+         `}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <nav className="navbar navbar-expand-lg">
+                <Link className="navbar-brand" to="/">
+                  <img src="assets/images/ElearningLogo.webp" alt="" />
+                  <img
+                    className="sticky-logo"
+                    src="assets/images/ElearningLogo.webp"
+                    alt="Website Logo"
+                  />
+                </Link>
+                
+                {/* logo End */}
+
+                {/* Moblie Btn Start  */}
+                {/* <button
+                  className="navbar-toggler"
+                  type="button"
+                  //   onClick={() => setActiveMobileMenu(!activeMobileMenu)}
+                >
+                  <i className="fal fa-bars"></i>
+                </button> */}
+                {/*  Moblie Btn End  */}
+
+                {/* Nav Menu Start  */}
+                <div
+                  className="collapse navbar-collapse"
+                  // style={{ display: activeMobileMenu && "block" }}
+                >
+                  <ul className="navbar-nav">
+                    <li
+                      className="menu-item-has-children"
+                      //   onClick={() =>
+                      //     // setActiveSubMobileMenu(
+                      //     //   activeMobileSubMenu === "home" ? false : "home"
+                      //     // )
+                      //   }
+                    >
+                      <Link to="/">Home</Link>
+                      <span className="submenu-toggler">
+                        <i className={`fal fa-plus`}></i>
+                      </span>
+                    </li>
+
+                    <li
+                      className="menu-item-has-children"
+                      name="pages"
+                      //   onClick={(e) => {
+                      //     setActiveSubMobileMenu(
+                      //       e.target.name
+                      //         ? e.target.name === activeMobileSubMenu
+                      //           ? "pages"
+                      //           : e.target.name
+                      //         : activeMobileSubMenu === "pages"
+                      //         ? false
+                      //         : "pages"
+                      //     );
+                      //   }}
+                    >
+                      <Link to="/about-1">About</Link>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
