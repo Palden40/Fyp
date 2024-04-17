@@ -6,8 +6,8 @@ function Footer({ getStart }) {
     <>
       <div className="copyright tw-flex tw-justify-center tw-bg-[#f7f6fa]">
         <p>
-          © 2021 Copyright all Right Reserved Design by{" "}
-          <a href="http://quomodosoft.com/"> SkillsDotNepal</a>
+          © 2024 Copyright all Right Reserved Design by{"Palden Lama"}
+          <a href="https://www.instagram.com/skill.np/"> SkillsDotNepal</a>
         </p>
       </div>
     </>
